@@ -132,8 +132,8 @@ def download_video(video: YouTube, audio=False):
         path = "/".join(elements[:-1])
         filename = elements[-1]
         stream.download(output_path=path, filename=filename)
-        if audio:
-            convert_to_ffmpeg_mp3(file)
+        # if audio:
+        #    convert_to_ffmpeg_mp3(file)
         showinfo("Success", f"Downloaded {title} successfully!")
     else:
         showwarning("Cancelled", "Download cancelled.")
