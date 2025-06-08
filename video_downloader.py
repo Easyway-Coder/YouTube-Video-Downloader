@@ -163,7 +163,7 @@ if __name__ == "__main__":
     screen.resizable(False, False)
 
     try:
-        screen.iconbitmap(r"D:\Vihaan Files\Paint\Icons\youtube.ico")
+        screen.iconbitmap(r"Images/icon.ico")
     except:
         print("Icon not found, continuing without it.")
 
